@@ -15,13 +15,13 @@ export function TweetCard({ tweet }: TweetCardProps) {
       href={tweet.tweetUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="block relative overflow-hidden hover:opacity-90 transition-opacity"
+      className="block relative overflow-hidden hover:opacity-90 transition-opacity aspect-square"
     >
       <Image
         src={tweet.imageUrl}
         alt={tweet.text}
-        width={600}
-        height={600}
+        width={300}
+        height={300}
         className="w-full h-full object-cover"
       />
     </a>

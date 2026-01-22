@@ -54,7 +54,7 @@ export function NewsFeed({ initialTweets }: NewsFeedProps) {
   }
 
   return (
-    <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-0.5">
+    <div className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 gap-0.5">
       {mixed.map((tweet) => (
         <TweetCard key={tweet.id} tweet={tweet} />
       ))}
