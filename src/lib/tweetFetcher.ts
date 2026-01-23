@@ -11,7 +11,7 @@ interface VxTwitterResponse {
   }>;
 }
 
-const ACCOUNTS = ["tyfloki", "NFT_Enjoyer_69", "vibesshift"];
+const ACCOUNTS = ["tyfloki", "NFT_Enjoyer_69", "wojakonx"];
 
 export async function fetchTweetById(
   handle: string,
